@@ -1,12 +1,12 @@
 // app.vue
 <style>
   .red {
-    color: #444;
+    color: #F00;
   }
 </style>
 
 <template>
-  <p class="red">{{msg}}</p>
+  <p class="red">Apple {{msg}}</p>
 </template>
 
 <script>

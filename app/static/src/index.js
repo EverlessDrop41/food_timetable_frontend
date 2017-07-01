@@ -1,10 +1,15 @@
 module.exports = function () {
-  var App = require("./components/App.vue");
+  //Import libaries
   var Vue = require("Vue");
   var jq = require("jquery");
 
+  //configure jQuery
   window.$ = jq;
   window.jQuery = jq;
+
+  //Import Components
+  var App = require("./components/App.vue");
+  var Week = require("./components/Week.vue")
 
   $(document).ready(function () {
     console.log("READY");
@@ -12,7 +17,7 @@ module.exports = function () {
       el: 'body',
       components: {
         "app": App,
-        'my-component': {template: '<div>A custom component!</div>'}
+        'week': Week
       },
       data: {
         title: "FOOD"
