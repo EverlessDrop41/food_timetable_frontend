@@ -1,5 +1,5 @@
-# Food Timetable
-The web client for the food_timetable app
+# Vue SFC app template
+A template for a web app using SFC Vue and Flask
 
 ### Flask Server
 
